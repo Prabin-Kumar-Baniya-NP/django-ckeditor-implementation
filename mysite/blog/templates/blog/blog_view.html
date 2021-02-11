@@ -1,0 +1,7 @@
+{% for blog in blogs%}
+{{ blog.title}}
+<br>
+{{ blog.description|safe }}
+<br>
+<hr>
+{% endfor %}
